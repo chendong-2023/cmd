@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T11:29:39.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="r36tLK__d7lXS9KNhkaF" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T11:30:40.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XLZFMQQPMVAk9WjUglAt" version="20.8.16" type="github">
   <diagram id="KSP_Ek3BJwsrb4C-WZ7z" name="第 1 页">
-    <mxGraphModel dx="1717" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2056" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -390,11 +390,36 @@
         <mxCell id="0UnH1oCZMurItEouwhYK-209" value="有变化" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0UnH1oCZMurItEouwhYK-211" target="0UnH1oCZMurItEouwhYK-218">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1440" />
+              <mxPoint x="320" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-211" value="重新更新编码属性即可" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="1260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0UnH1oCZMurItEouwhYK-213" value="那么就要先复位&lt;br&gt;编码通道" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0UnH1oCZMurItEouwhYK-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0UnH1oCZMurItEouwhYK-213" target="0UnH1oCZMurItEouwhYK-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-213" value="复位&lt;br&gt;编码通道" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0UnH1oCZMurItEouwhYK-216" target="0UnH1oCZMurItEouwhYK-218">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="1440" />
+              <mxPoint x="320" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-216" value="重新更新编码属性即可" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="1350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-218" value="结束" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
