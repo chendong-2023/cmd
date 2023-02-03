@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T11:13:03.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fLlJ580b9FN_a8wdJ6CE" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T11:14:01.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gusTv2nvUTPYGcATGFpm" version="20.8.16" type="github">
   <diagram id="KSP_Ek3BJwsrb4C-WZ7z" name="第 1 页">
-    <mxGraphModel dx="1358" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0UnH1oCZMurItEouwhYK-30" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="330" width="60" height="40" as="geometry">
+          <mxGeometry x="-640" y="91.5" width="60" height="40" as="geometry">
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-40" value="编码通道设置(出厂前要设置好)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="120" y="80" width="471" height="150" as="geometry" />
+          <mxGeometry x="120" y="80" width="471" height="180" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-40">
           <mxGeometry y="30" width="471" height="30" as="geometry" />
@@ -104,8 +104,31 @@
             <mxRectangle width="117" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-185" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-40">
+          <mxGeometry y="150" width="471" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-186" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-185">
+          <mxGeometry width="118" height="30" as="geometry">
+            <mxRectangle width="118" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-187" value="MJPEG" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-185">
+          <mxGeometry x="118" width="118" height="30" as="geometry">
+            <mxRectangle width="118" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-188" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-185">
+          <mxGeometry x="236" width="118" height="30" as="geometry">
+            <mxRectangle width="118" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0UnH1oCZMurItEouwhYK-189" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-185">
+          <mxGeometry x="354" width="117" height="30" as="geometry">
+            <mxRectangle width="117" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-69" value="H264编码控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="640" y="280" width="518" height="54" as="geometry" />
+          <mxGeometry x="890" y="77.5" width="518" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-69">
           <mxGeometry y="30" width="518" height="24" as="geometry" />
@@ -131,7 +154,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-82" value="H264CBR码率控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="120" y="280" width="470" height="46" as="geometry" />
+          <mxGeometry x="-760" y="41.5" width="470" height="46" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-82">
           <mxGeometry y="30" width="470" height="16" as="geometry" />
@@ -152,7 +175,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-152" value="H264VBR码率控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="120" y="360" width="470" height="46" as="geometry" />
+          <mxGeometry x="-760" y="121.5" width="470" height="46" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-153" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-152">
           <mxGeometry y="30" width="470" height="16" as="geometry" />
@@ -173,7 +196,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-157" value="H264 MJPEG码率控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="120" y="440" width="470" height="46" as="geometry" />
+          <mxGeometry x="-760" y="201.5" width="470" height="46" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-158" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-157">
           <mxGeometry y="30" width="470" height="16" as="geometry" />
@@ -194,7 +217,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-162" value="H265编码控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="640" y="360" width="518" height="54" as="geometry" />
+          <mxGeometry x="890" y="157.5" width="518" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-163" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-162">
           <mxGeometry y="30" width="518" height="24" as="geometry" />
@@ -220,7 +243,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-168" value="H264 FIXQB码率控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="121" y="520" width="470" height="46" as="geometry" />
+          <mxGeometry x="-759" y="281.5" width="470" height="46" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-169" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-168">
           <mxGeometry y="30" width="470" height="16" as="geometry" />
@@ -241,7 +264,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-173" value="JPEG编码控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="640" y="466" width="518" height="54" as="geometry" />
+          <mxGeometry x="890" y="263.5" width="518" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-174" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-173">
           <mxGeometry y="30" width="518" height="24" as="geometry" />
@@ -267,7 +290,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-179" value="MJPEG编码控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="640" y="557" width="518" height="54" as="geometry" />
+          <mxGeometry x="890" y="354.5" width="518" height="54" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-180" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-179">
           <mxGeometry y="30" width="518" height="24" as="geometry" />
