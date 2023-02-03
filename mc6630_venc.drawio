@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T11:07:56.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MquQLMAT7xf85B0Q8uLo" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-03T11:08:39.164Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SmrF0VavLvi0vcIx0_h9" version="20.8.16" type="github">
   <diagram id="KSP_Ek3BJwsrb4C-WZ7z" name="第 1 页">
     <mxGraphModel dx="1290" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-40" value="编码通道设置(出厂前要设置好)" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
-          <mxGeometry x="120" y="80" width="471" height="160" as="geometry" />
+          <mxGeometry x="120" y="80" width="471" height="150" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-40">
           <mxGeometry y="30" width="471" height="30" as="geometry" />
@@ -59,30 +59,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-40">
-          <mxGeometry y="90" width="471" height="40" as="geometry" />
+          <mxGeometry y="90" width="471" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-107" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-49">
-          <mxGeometry width="118" height="40" as="geometry">
-            <mxRectangle width="118" height="40" as="alternateBounds" />
+          <mxGeometry width="118" height="30" as="geometry">
+            <mxRectangle width="118" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-50" value="H265" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-49">
-          <mxGeometry x="118" width="118" height="40" as="geometry">
-            <mxRectangle width="118" height="40" as="alternateBounds" />
+          <mxGeometry x="118" width="118" height="30" as="geometry">
+            <mxRectangle width="118" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-52" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-49">
-          <mxGeometry x="236" width="118" height="40" as="geometry">
-            <mxRectangle width="118" height="40" as="alternateBounds" />
+          <mxGeometry x="236" width="118" height="30" as="geometry">
+            <mxRectangle width="118" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-59" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-49">
-          <mxGeometry x="354" width="117" height="40" as="geometry">
-            <mxRectangle width="117" height="40" as="alternateBounds" />
+          <mxGeometry x="354" width="117" height="30" as="geometry">
+            <mxRectangle width="117" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-53" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-40">
-          <mxGeometry y="130" width="471" height="30" as="geometry" />
+          <mxGeometry y="120" width="471" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-108" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;" vertex="1" parent="0UnH1oCZMurItEouwhYK-53">
           <mxGeometry width="118" height="30" as="geometry">
@@ -104,7 +104,7 @@
             <mxRectangle width="117" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0UnH1oCZMurItEouwhYK-69" value="H264 vbr编码控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
+        <mxCell id="0UnH1oCZMurItEouwhYK-69" value="H264 CBR编码控制器属性" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" vertex="1" parent="1">
           <mxGeometry x="840" y="110" width="518" height="170" as="geometry" />
         </mxCell>
         <mxCell id="0UnH1oCZMurItEouwhYK-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0UnH1oCZMurItEouwhYK-69">
