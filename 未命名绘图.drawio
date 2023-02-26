@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-26T03:25:04.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="m5LgdNSXGG2muE0mvS9a" version="20.8.20" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-26T03:25:31.289Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Nk-JiQUFXqclgmLacXrz" version="20.8.20" type="github" pages="2">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1313" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -333,6 +333,9 @@
         </mxCell>
         <mxCell id="clJ7zlGp3md0g9LAwvZ6-28" value="IMP_System_Init" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="354" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="clJ7zlGp3md0g9LAwvZ6-30" value="IMP_ISP_EnableTuning" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="1020" width="156" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
