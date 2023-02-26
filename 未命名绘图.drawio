@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-26T06:24:16.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="v1JmcdC9zf-x_LpPZACC" version="20.8.20" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-26T07:11:39.307Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="66-apk8dBZpM9ou5T8t5" version="20.8.20" type="github" pages="3">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1313" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -361,12 +361,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vQNTvx2ZM9HXfDbG6Fc8" name="jz-framesoure">
-    <mxGraphModel dx="875" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="iSAqyRBfblaVDcROwaSf-19" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="321" y="290" width="470" height="250" as="geometry" />
+        </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-8" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;dashed=1;fillColor=#dae8fc;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="280" y="350" width="270" height="110" as="geometry" />
+          <mxGeometry x="329" y="350" width="270" height="110" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-1" value="IMP_FrameSource_CreateChn" style="whiteSpace=wrap;html=1;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="310" y="140" width="210" height="40" as="geometry" />
@@ -378,19 +381,16 @@
           <mxGeometry x="309" y="240" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-4" value="IMP_FrameSource_SetFrameDepth" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="291" y="290" width="240" height="40" as="geometry" />
+          <mxGeometry x="340" y="290" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-5" value="IMP_FrameSource_GetFrame" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="291" y="360" width="246" height="40" as="geometry" />
+          <mxGeometry x="340" y="360" width="246" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-6" value="IMP_FrameSource_ReleaseFrame" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="291" y="410" width="246" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="iSAqyRBfblaVDcROwaSf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontStyle=1" edge="1" parent="1" source="iSAqyRBfblaVDcROwaSf-7" target="iSAqyRBfblaVDcROwaSf-11">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="340" y="410" width="246" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-7" value="IMP_FrameSource_SetFrameDepth" style="whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="295" y="480" width="240" height="40" as="geometry" />
+          <mxGeometry x="344" y="480" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;fontStyle=1" edge="1" parent="1" source="iSAqyRBfblaVDcROwaSf-9" target="iSAqyRBfblaVDcROwaSf-1">
           <mxGeometry relative="1" as="geometry" />
@@ -399,13 +399,22 @@
           <mxGeometry x="240" y="140" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-11" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;strokeColor=#b85450;fontSize=14;fillColor=#f8cecc;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="570" y="480" width="40" height="40" as="geometry" />
+          <mxGeometry x="589.5" y="610" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="iSAqyRBfblaVDcROwaSf-14" target="iSAqyRBfblaVDcROwaSf-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-14" value="在这里就可以拿到&lt;br&gt;原始图像" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="610" y="310" width="120" height="80" as="geometry" />
+          <mxGeometry x="659" y="310" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iSAqyRBfblaVDcROwaSf-16" value="&lt;b&gt;IMP_FrameSource_DisableChn&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="295" y="550" width="239" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iSAqyRBfblaVDcROwaSf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="iSAqyRBfblaVDcROwaSf-17" target="iSAqyRBfblaVDcROwaSf-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iSAqyRBfblaVDcROwaSf-17" value="&lt;b&gt;IMP_FrameSource_DestroyChn&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290.5" y="610" width="239" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
