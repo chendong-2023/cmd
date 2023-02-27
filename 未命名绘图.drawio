@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T03:42:13.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="bWAdRH8eeit-h7n0wFMG" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-27T03:51:20.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="CoENHPFVk4MdRPcd2diJ" version="20.8.23" type="github" pages="4">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1750" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -420,45 +420,48 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TAPde3c2-ct1NQDtg-3C" name="jz-encoder">
-    <mxGraphModel dx="1235" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-1" value="IMP_Encoder_CreateGroup" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="200" width="200" height="40" as="geometry" />
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-20" value="" style="whiteSpace=wrap;html=1;dashed=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="320" y="252.25" width="220" height="182.75" as="geometry" />
         </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-2" value="IMP_Encoder_SetDefaultParam" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="260" width="200" height="40" as="geometry" />
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-1" value="IMP_Encoder_CreateGroup" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="155" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-3" value="IMP_Encoder_CreateChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="200" height="40" as="geometry" />
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-2" value="IMP_Encoder_SetDefaultParam" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="215" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-4" value="IMP_Encoder_RegisterChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="380" width="200" height="40" as="geometry" />
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-3" value="IMP_Encoder_CreateChn" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="275" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v3tfynnQ1_p2DRiFoxs9-7" target="v3tfynnQ1_p2DRiFoxs9-2">
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-4" value="IMP_Encoder_RegisterChn" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="335" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-9" value="IMP_System_Bind" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="395" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-12" value="IMP_Encoder_StartRecvPic" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="80" y="455" width="200" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-16" value="IMP_Encoder_PollingStream" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="259.5" width="200" height="45.5" as="geometry" />
+        </mxCell>
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-17" value="IMP_Encoder_GetStream" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="315" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-18" value="IMP_Encoder_ReleaseStream" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="330" y="375" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v3tfynnQ1_p2DRiFoxs9-21" target="v3tfynnQ1_p2DRiFoxs9-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-7" value="可通过调整 IMPEncoderRcAttr参数&lt;br&gt;更新对应模式的码率" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="520" y="255" width="200" height="50" as="geometry" />
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-21" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="10" y="151" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-9" value="IMP_System_Bind" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="445" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="v3tfynnQ1_p2DRiFoxs9-10" target="v3tfynnQ1_p2DRiFoxs9-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-10" value="绑定framesource.ch&amp;lt;--&amp;gt;venc.ch" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="520" y="440" width="200" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-12" value="IMP_Encoder_StartRecvPic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="525" width="200" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v3tfynnQ1_p2DRiFoxs9-14" target="v3tfynnQ1_p2DRiFoxs9-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="v3tfynnQ1_p2DRiFoxs9-14" value="这里要先启动使能好framesource对应通道" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="522" y="523" width="200" height="50" as="geometry" />
+        <mxCell id="v3tfynnQ1_p2DRiFoxs9-24" value="IMP_Encoder_StopRecvPic" style="whiteSpace=wrap;html=1;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="155" width="200" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
