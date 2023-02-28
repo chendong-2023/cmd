@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-27T04:01:54.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="wbSa-rS8Z_vXbd6PJTPv" version="20.8.23" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-28T07:49:43.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="kUOpXkq7pv_k3daj7XtY" version="20.8.23" type="github" pages="4">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
-    <mxGraphModel dx="1750" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,7 +361,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vQNTvx2ZM9HXfDbG6Fc8" name="jz-framesoure">
-    <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -415,6 +415,18 @@
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-17" value="&lt;b&gt;IMP_FrameSource_DestroyChn&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="290.5" y="610" width="239" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vufq6ALzE3WMkR1SA4dH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vufq6ALzE3WMkR1SA4dH-1" target="vufq6ALzE3WMkR1SA4dH-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vufq6ALzE3WMkR1SA4dH-1" value="用户发送抓图命令" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vufq6ALzE3WMkR1SA4dH-2" value="IMP_FrameSource_GetFrame" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="410" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vufq6ALzE3WMkR1SA4dH-4" value="通知线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="410" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
