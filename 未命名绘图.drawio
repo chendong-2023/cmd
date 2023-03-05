@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-05T05:07:46.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="0AMx-1PiCVz_-20xyQ5c" version="21.0.2" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-03-05T05:08:49.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="-Wbe0-SGCWBbmXlm5wZK" version="21.0.2" type="github" pages="7">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -368,10 +368,10 @@
         <mxCell id="NiLEkaUISWTahjkgyDBy-13" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1040" y="-90" width="510" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NiLEkaUISWTahjkgyDBy-8" target="NiLEkaUISWTahjkgyDBy-9">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="NiLEkaUISWTahjkgyDBy-8" target="NiLEkaUISWTahjkgyDBy-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-8" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-8" value="" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1230" y="-40" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="iSAqyRBfblaVDcROwaSf-19" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fontSize=14;" parent="1" vertex="1">
@@ -437,32 +437,38 @@
         <mxCell id="vufq6ALzE3WMkR1SA4dH-4" value="通知线程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1020" y="410" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NiLEkaUISWTahjkgyDBy-1" target="NiLEkaUISWTahjkgyDBy-2">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="NiLEkaUISWTahjkgyDBy-1" target="NiLEkaUISWTahjkgyDBy-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-1" value="原始图" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-1" value="原始图" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="940" y="5" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NiLEkaUISWTahjkgyDBy-2" target="NiLEkaUISWTahjkgyDBy-8">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="NiLEkaUISWTahjkgyDBy-2" target="NiLEkaUISWTahjkgyDBy-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-2" value="fcrop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-2" value="fcrop" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1130" y="10" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-4" value="裁剪" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-4" value="裁剪" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1050" y="5" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-6" value="缩小" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-6" value="缩小" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1280" y="-10" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-7" value="放大" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-7" value="放大" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1260" y="40" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NiLEkaUISWTahjkgyDBy-9" value="crop" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NiLEkaUISWTahjkgyDBy-9" value="crop" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1470" y="10" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NiLEkaUISWTahjkgyDBy-14" value="视频源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=32;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1040" y="-90" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NiLEkaUISWTahjkgyDBy-15" value="前级裁剪 &lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1120" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NiLEkaUISWTahjkgyDBy-16" value="后级裁剪 &lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1460" y="65" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
