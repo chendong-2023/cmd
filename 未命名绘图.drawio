@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T03:17:55.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="V2upGtCBcIsru0o5FIlG" version="21.0.2" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-03-06T10:51:11.752Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="2rTkDss98S-ltnlQIRA3" version="21.0.2" type="github" pages="8">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -710,7 +710,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BePxmKUGzys1Y7FW3kn9" name="齐齐布局">
-    <mxGraphModel dx="1500" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="700" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -794,6 +794,21 @@
               <mxPoint x="480" y="620" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="AEp6PNeIDmNwX8tsvCKI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="AEp6PNeIDmNwX8tsvCKI-40" target="AEp6PNeIDmNwX8tsvCKI-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEp6PNeIDmNwX8tsvCKI-40" value="jz模块" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEp6PNeIDmNwX8tsvCKI-41" value="实时视频流处理&lt;br&gt;avplay" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;size=-11;" vertex="1" parent="1">
+          <mxGeometry x="980" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AEp6PNeIDmNwX8tsvCKI-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AEp6PNeIDmNwX8tsvCKI-42" target="AEp6PNeIDmNwX8tsvCKI-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AEp6PNeIDmNwX8tsvCKI-42" value="模块加载顺序" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
