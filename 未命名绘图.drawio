@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T05:47:56.599Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="lagL_SyLQV1BDF4IL1yL" version="21.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-09T05:48:40.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="I2rz2gzBKyJPo8HFFiPB" version="21.0.4" type="github" pages="9">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1378,10 +1378,10 @@
             <mxRectangle width="20" height="10" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-155" value="&lt;font color=&quot;#ff6666&quot;&gt;一次采样的精度&lt;br&gt;如果是1个字节,&lt;br&gt;那么就是8位&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-155" value="&lt;font color=&quot;#ff6666&quot;&gt;一次采样的精度&lt;br&gt;如果是1个字节,&lt;br&gt;那么就是8位&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="265" y="2620" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-156" value="&lt;font color=&quot;#ff6666&quot;&gt;一次采样的精度&lt;br&gt;如果是2个字节,&lt;br&gt;那么就是16位&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-156" value="&lt;font color=&quot;#ff6666&quot;&gt;一次采样的精度&lt;br&gt;如果是2个字节,&lt;br&gt;那么就是16位&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="265" y="2680" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
