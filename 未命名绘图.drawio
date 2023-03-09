@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T04:21:25.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="a7sLfViordU77v3A4GXu" version="21.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-09T04:37:26.612Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="g_0yGA0FSRdB1vMiemGQ" version="21.0.4" type="github" pages="9">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1028,6 +1028,12 @@
         </mxCell>
         <mxCell id="GnTsMKuo7i2X8d_9FCE3-46" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="740" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-49" value="输入音频信息:&lt;br&gt;AUDIO_SAMPLE_RATE_8000&lt;br&gt;AUDIO_BIT_WIDTH_16&lt;br&gt;AUDIO_SOUND_MODE_MONO" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;size=0.2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="107" y="850" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-50" value="输出文件格式:&lt;br&gt;G711A" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;size=0.2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="483" y="850" width="180" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
