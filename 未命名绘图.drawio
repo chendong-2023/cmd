@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T03:55:58.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="LNNUXlgJPa6ORgHdHr6m" version="21.0.4" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-03-09T03:56:21.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="aXdC-QoG-qJ6kGwBulPd" version="21.0.4" type="github" pages="9">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -954,32 +954,32 @@
         <mxCell id="GnTsMKuo7i2X8d_9FCE3-18" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="750" y="400" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-21" value="数字MIC设备" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-21" value="数字MIC设备" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-22" value="模拟MIC设备" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-22" value="模拟MIC设备" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="180" y="600" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-23" value="输入通道&lt;br&gt;(只有一个)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-23" value="输入通道&lt;br&gt;(只有一个)" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="350" y="562" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-24" value="各种操作&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6.999969482421761;direction=south;" vertex="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-24" value="各种操作&lt;br&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=6.999969482421761;direction=south;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="530" y="567" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="592" as="sourcePoint" />
             <mxPoint x="520" y="592" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GnTsMKuo7i2X8d_9FCE3-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="GnTsMKuo7i2X8d_9FCE3-27" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontStyle=1" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="304" y="590" as="sourcePoint" />
             <mxPoint x="344" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GnTsMKuo7i2X8d_9FCE3-31" value="IMP_AENC_RegisterEncoder" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="354" y="750" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
