@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-19T11:08:25.566Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="ntCNoquT3qaHtDoJYjq2" version="21.0.8" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2023-03-20T02:03:54.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="evSfcavPZLmqAsYO88nH" version="21.0.8" type="github" pages="15">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -474,7 +474,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TAPde3c2-ct1NQDtg-3C" name="jz-encoder">
-    <mxGraphModel dx="7000" dy="3500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="875" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -537,6 +537,57 @@
         </mxCell>
         <mxCell id="v3tfynnQ1_p2DRiFoxs9-36" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="625" y="530" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-1" value="IMP_Encoder_SetDefaultParam" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="660" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-2" value="调整对应的码率属性rcAttr" style="whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="290" y="720" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-3" value="IMP_Encoder_CreateChn" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="800" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="alInzRdQD-eOmhDElSPe-4" target="alInzRdQD-eOmhDElSPe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-4" value="IMP_Encoder_RegisterChn" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="860" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="alInzRdQD-eOmhDElSPe-9" target="alInzRdQD-eOmhDElSPe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-9" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="655" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-11" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="524" y="855" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-13" value="适用于创建通道前" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="294" y="610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-14" value="适用于创建通道后" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="290" y="950" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="alInzRdQD-eOmhDElSPe-15" target="alInzRdQD-eOmhDElSPe-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-15" value="IMP_Encoder_SetChnAttrRcMode" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="1000" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-16" value="下一个 IDR 生效 &lt;br/&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-17" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1060" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="alInzRdQD-eOmhDElSPe-19" target="alInzRdQD-eOmhDElSPe-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-19" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1005" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="alInzRdQD-eOmhDElSPe-21" value="修改上面接口调用返回的&lt;br&gt;通道属性里面的码率控制属性&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="495" y="730" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
