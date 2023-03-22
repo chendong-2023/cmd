@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-22T04:06:55.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="jzbPRveK_MlfPDU5TZPv" version="21.0.8" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2023-03-22T04:14:18.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HI8sWzTx0tKKMIzfFRm9" version="21.0.8" type="github" pages="16">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4875,7 +4875,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UWR758Sp8WzstIDJMsqf" name="音视频流">
-    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1877" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4911,6 +4911,33 @@
         </mxCell>
         <mxCell id="-NHbSzatp067I5IBAu5v-11" value="数据ES&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-13" value="&lt;div&gt;I帧封装 PS header | PS system header | PS system Map | PES header |&amp;nbsp; h264 raw data，每个IDR NALU前一般都会包含SPS、PPS等NALU，因此将SPS、PPS、IDR 的NALU封装为一个PS包，包括ps头，然后加上PS system header，PS system map，PES header+h264 rawdata&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;P帧封装 PS header | PES header | h264 raw data 非关键帧的PS包，直接加上PS头和PES头就可以了&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;音频封装 当有音频数据时，将数据加上PES header 放到视频PES后就可以了。顺序如下：PS包=PS头|PES(video)|PES(audio)&lt;/div&gt;&lt;div&gt;————————————————&lt;/div&gt;&lt;div&gt;版权声明：本文为CSDN博主「QQ_1695710968」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。&lt;/div&gt;&lt;div&gt;原文链接：https://blog.csdn.net/hiwubihe/article/details/80736848&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="625" width="1520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-16" value="对H264 I帧&lt;br&gt;(sps,pps, sei idr)" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="275" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-17" value="PS header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="430" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-18" value="PS system header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-680" y="390" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-19" value="PS system Map" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-662.5" y="350" width="205" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-22" value="PES header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="310" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-28" value="对H264 P帧" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="280" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-29" value="PES header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="315" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-NHbSzatp067I5IBAu5v-30" value="PS header" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="355" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
