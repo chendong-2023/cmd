@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T07:53:59.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RMDiiW2SozDJA50uevn8" version="21.0.10" type="github" pages="18">
+<mxfile host="app.diagrams.net" modified="2023-03-25T07:57:21.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="pASn7miK5_JMbBBhu0JU" version="21.0.10" type="github" pages="18">
   <diagram id="fxU_WV-ga9fd_F4JrnZT" name="第 1 页">
     <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5142,7 +5142,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iA7x2_Z6V7L_ipVkUqXH-29" value="4G接口" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="530" y="420" width="20" height="60" as="geometry" />
+          <mxGeometry x="460" y="400" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iA7x2_Z6V7L_ipVkUqXH-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="iA7x2_Z6V7L_ipVkUqXH-31" target="iA7x2_Z6V7L_ipVkUqXH-33">
           <mxGeometry relative="1" as="geometry" />
@@ -5151,16 +5151,37 @@
           <mxGeometry x="225" y="430" width="20" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iA7x2_Z6V7L_ipVkUqXH-32" value="4G模块板" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="610" y="420" width="60" height="60" as="geometry" />
+          <mxGeometry x="540" y="400" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iA7x2_Z6V7L_ipVkUqXH-33" value="玩具车板" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="175" y="420" width="20" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iA7x2_Z6V7L_ipVkUqXH-34" value="usb" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="540" width="30" height="60" as="geometry" />
+          <mxGeometry x="395" y="440" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iA7x2_Z6V7L_ipVkUqXH-35" value="wifi" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="530" y="500" width="20" height="60" as="geometry" />
+          <mxGeometry x="460" y="480" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iA7x2_Z6V7L_ipVkUqXH-37" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="iA7x2_Z6V7L_ipVkUqXH-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="425" y="475" as="sourcePoint" />
+            <mxPoint x="475" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iA7x2_Z6V7L_ipVkUqXH-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.02;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="iA7x2_Z6V7L_ipVkUqXH-34" target="iA7x2_Z6V7L_ipVkUqXH-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="600" as="sourcePoint" />
+            <mxPoint x="500" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iA7x2_Z6V7L_ipVkUqXH-39" value="wifi模块" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="540" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iA7x2_Z6V7L_ipVkUqXH-40" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="iA7x2_Z6V7L_ipVkUqXH-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="570" as="sourcePoint" />
+            <mxPoint x="540" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
