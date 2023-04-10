@@ -1,60 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T03:59:24.412Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zmhHML4I8cdgPcmYFpdl" version="21.1.4" type="github">
-  <diagram name="第 1 页" id="Ov6z6-J_8VN24Y0mYAsv">
-    <mxGraphModel dx="875" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-04-10T02:02:24.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7NrjYjmMaBRs9QtOnpWA" version="21.1.5" type="github" pages="2">
+  <diagram name="vsys初始化" id="Ov6z6-J_8VN24Y0mYAsv">
+    <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="370" y="320" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-16" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-16" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="370" y="160" width="140" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="0mHNVSA0Z4p0JZN1M5dI-1" target="0mHNVSA0Z4p0JZN1M5dI-2">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="0mHNVSA0Z4p0JZN1M5dI-1" target="0mHNVSA0Z4p0JZN1M5dI-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-1" value="系统初始化" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-1" value="系统初始化" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="65" y="150" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-2" value="FY_MPI_SYS_Exit" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-2" value="FY_MPI_SYS_Exit" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="180" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-3" value="FY_MPI_VB_ExitModCommPool" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-3" value="FY_MPI_VB_ExitModCommPool" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="180" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-4" value="FY_MPI_VB_DestroyPool" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-4" value="FY_MPI_VB_DestroyPool" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="180" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-5" value="清空所有池子" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-5" value="清空所有池子" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="255" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0mHNVSA0Z4p0JZN1M5dI-6" target="0mHNVSA0Z4p0JZN1M5dI-7">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0mHNVSA0Z4p0JZN1M5dI-6" target="0mHNVSA0Z4p0JZN1M5dI-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-6" value="FY_MPI_VB_Exit" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-6" value="FY_MPI_VB_Exit" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="180" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-7" value="FY_MPI_VB_SetConf" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-7" value="FY_MPI_VB_SetConf" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="380" y="170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-8" value="FY_MPI_VB_Init" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-8" value="FY_MPI_VB_Init" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="380" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-9" value="FY_MPI_SYS_SetConf" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-9" value="FY_MPI_SYS_SetConf" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="380" y="331" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0mHNVSA0Z4p0JZN1M5dI-10" target="0mHNVSA0Z4p0JZN1M5dI-11">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0mHNVSA0Z4p0JZN1M5dI-10" target="0mHNVSA0Z4p0JZN1M5dI-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-10" value="FY_MPI_SYS_Init" style="whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-10" value="FY_MPI_SYS_Init" style="whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="380" y="401" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-11" value="完成" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-11" value="完成" style="ellipse;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="520" y="391" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-15" value="用到的API接口&lt;br&gt;FY_MPI_SYS_Exit&lt;br&gt;FY_MPI_VB_ExitModCommPool&lt;br&gt;FY_MPI_VB_DestroyPool&lt;br&gt;FY_MPI_VB_Exit&lt;br&gt;FY_MPI_VB_SetConf&lt;br&gt;FY_MPI_VB_Init&lt;br&gt;FY_MPI_SYS_SetConf&lt;br&gt;FY_MPI_SYS_Init" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="0mHNVSA0Z4p0JZN1M5dI-15" value="用到的API接口&lt;br&gt;FY_MPI_SYS_Exit&lt;br&gt;FY_MPI_VB_ExitModCommPool&lt;br&gt;FY_MPI_VB_DestroyPool&lt;br&gt;FY_MPI_VB_Exit&lt;br&gt;FY_MPI_VB_SetConf&lt;br&gt;FY_MPI_VB_Init&lt;br&gt;FY_MPI_SYS_SetConf&lt;br&gt;FY_MPI_SYS_Init" style="whiteSpace=wrap;html=1;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="720" y="160" width="290" height="240" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MKa5tnbOQyRtnCgHiSSf" name="votest">
+    <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
