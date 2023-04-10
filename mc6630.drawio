@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-10T02:02:24.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="7NrjYjmMaBRs9QtOnpWA" version="21.1.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-04-10T02:02:55.700Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="v_eDbHSrNHnyBiUGv8NL" version="21.1.5" type="github" pages="2">
   <diagram name="vsys初始化" id="Ov6z6-J_8VN24Y0mYAsv">
     <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="k1lsFt5AASJXmUlFkHFh-1" value="VI" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1lsFt5AASJXmUlFkHFh-2" value="VPSS" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k1lsFt5AASJXmUlFkHFh-3" value="VO" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
