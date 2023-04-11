@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T10:08:00.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zUhR-EGIObYX1p45D6ZH" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-11T10:24:51.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DL6lNdX6P05xh-wOwwYd" version="21.1.5" type="github" pages="3">
   <diagram name="vsys初始化" id="Ov6z6-J_8VN24Y0mYAsv">
     <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,15 +76,72 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z0WLtxJ4dnSeZn7eZC7k" name="vi通道摄像头状态">
-    <mxGraphModel dx="500" dy="277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="B2d8rjIexLyhCXnCmhka-6" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="280" width="290" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-1" value="&lt;b&gt;初始化完VI设备&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-2" value="&lt;b&gt;初始化完VI通道&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-3" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-4" value="FY_MPI_VI_SetChnVBCnt" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-5" value="第一阶段完成:&lt;br&gt;先不用设置通道对应的摄像头的大小之类的,&amp;nbsp;可以稍后,再确认.&lt;br&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d5e8d4;strokeColor=#82b366;verticalAlign=top;align=left;size=0.2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="290" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B2d8rjIexLyhCXnCmhka-7" target="B2d8rjIexLyhCXnCmhka-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B2d8rjIexLyhCXnCmhka-7" target="B2d8rjIexLyhCXnCmhka-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-7" value="启动后" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-8" value="发现没有摄像头处理流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-9" value="FY_MPI_VI_SetChnAttr" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-10" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-11" value="FY_MPI_VI_EnableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-12" value="FY_MPI_VI_DisableChnInterrupt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-13" value="发现有摄像头处理流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-14" value="FY_MPI_VI_EnableUserPic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-17" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-18" value="FY_MPI_VI_SetChnAttr" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-19" value="FY_MPI_VI_EnableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-20" value="FY_MPI_VI_DisableUserPic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-23" value="有摄像头--&amp;gt;&lt;br&gt;没有摄像头" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="220" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
