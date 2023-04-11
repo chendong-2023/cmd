@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T10:24:51.114Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="DL6lNdX6P05xh-wOwwYd" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-11T10:29:51.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="33NDM0ypLAyc2Vy7EKyg" version="21.1.5" type="github" pages="3">
   <diagram name="vsys初始化" id="Ov6z6-J_8VN24Y0mYAsv">
     <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -110,22 +110,22 @@
         <mxCell id="B2d8rjIexLyhCXnCmhka-8" value="发现没有摄像头处理流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B2d8rjIexLyhCXnCmhka-9" value="FY_MPI_VI_SetChnAttr" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B2d8rjIexLyhCXnCmhka-9" value="FY_MPI_VI_SetChnAttr" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="650" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B2d8rjIexLyhCXnCmhka-10" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B2d8rjIexLyhCXnCmhka-10" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="650" y="300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B2d8rjIexLyhCXnCmhka-11" value="FY_MPI_VI_EnableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B2d8rjIexLyhCXnCmhka-11" value="FY_MPI_VI_EnableChn" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="650" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B2d8rjIexLyhCXnCmhka-12" value="FY_MPI_VI_DisableChnInterrupt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B2d8rjIexLyhCXnCmhka-12" value="FY_MPI_VI_DisableChnInterrupt" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="650" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-13" value="发现有摄像头处理流程" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B2d8rjIexLyhCXnCmhka-14" value="FY_MPI_VI_EnableUserPic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B2d8rjIexLyhCXnCmhka-14" value="FY_MPI_VI_EnableUserPic" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="650" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-17" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -138,10 +138,34 @@
           <mxGeometry x="930" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-20" value="FY_MPI_VI_DisableUserPic" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-23" value="有摄像头--&amp;gt;&lt;br&gt;没有摄像头" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1270" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-24" value="FY_MPI_VI_SetChnAttr" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-25" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-26" value="FY_MPI_VI_EnableChn" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-27" value="FY_MPI_VI_DisableChnInterrupt" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-28" value="FY_MPI_VI_EnableUserPic" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-29" value="没有摄像头--&amp;gt;&lt;br&gt;有摄像头" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-30" value="FY_MPI_VI_DisableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-31" value="FY_MPI_VI_EnableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
