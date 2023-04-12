@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T10:30:10.003Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="VCdeXfRo5DhqPvaoDWAh" version="21.1.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-04-12T00:40:59.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="QghaXI6vYuvhriq58LDl" version="21.1.5" type="github" pages="3">
   <diagram name="vsys初始化" id="Ov6z6-J_8VN24Y0mYAsv">
     <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,7 +76,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="z0WLtxJ4dnSeZn7eZC7k" name="vi通道摄像头状态">
-    <mxGraphModel dx="1235" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,7 +138,7 @@
           <mxGeometry x="930" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-20" value="FY_MPI_VI_DisableUserPic" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="390" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="470" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-23" value="有摄像头--&amp;gt;&lt;br&gt;没有摄像头" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1270" y="220" width="120" height="60" as="geometry" />
@@ -165,7 +165,10 @@
           <mxGeometry x="1510" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B2d8rjIexLyhCXnCmhka-31" value="FY_MPI_VI_EnableChn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="470" width="120" height="60" as="geometry" />
+          <mxGeometry x="1510" y="554" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B2d8rjIexLyhCXnCmhka-33" value="FY_MPI_VI_SetChnAttr" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="390" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
